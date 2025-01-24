@@ -1,15 +1,13 @@
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Btn from './modules/Button';
-import Input from './modules/Input';
+import React from "react";
+import App from './modules/App';
 
 const divRoot = document.getElementById('root');
 const root = ReactDOM.createRoot(divRoot);
 root.render(
-<div>
-  <h2>My App</h2>
-  <br/>
-  <Input/>
-  <Btn/>
-</div>
+  <>
+    <h2 style={{textAlign:'center'}}>My App</h2>
+    <App />
+  </>
 );
