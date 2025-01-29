@@ -1,11 +1,11 @@
-import Li from "./Li";
+import Post from "./post";
+
+
 function App() {
   return (
     <>
       <h1 style={{textAlign:'center',fontSize:'55px'}}>Posts</h1>
-      <ul >
-        <Li />
-      </ul>
+      <Post/>
     </>
   );
 }

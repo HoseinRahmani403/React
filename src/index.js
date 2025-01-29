@@ -7,7 +7,6 @@ const divRoot = document.getElementById('root');
 const root = ReactDOM.createRoot(divRoot);
 root.render(
   <>
-    <h2 style={{textAlign:'center'}}>My App</h2>
     <App />
   </>
 );
